@@ -3,7 +3,7 @@ A simple neural network using only python + numpy.
 
 - This is a fully-connected network with one hidden layer.  
 - The layout is **Input-784 -> FC-2048 -> ReLU -> FC-10 -> Sigmoid**, (where FC-Num stands for fully-connected layer with Num neurons)  
-- The network uses L2 loss : $\frac{1}{N}*\sum_i{\\;\(target_i - predicted_i\)^2}$
+- The network uses L2 loss : $\frac{1}{N}*\sum_i{\\;\(\text{target}_i - \text{predicted}_i\)^2}$
 
 ## Results on MNIST numbers dataset:
 - Accuracy and loss:
